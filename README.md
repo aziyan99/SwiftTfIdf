@@ -2,6 +2,12 @@
 
 An ordinary swift package, have a bunch looping of calculating TFIDF and of course to ranking words. This package work only with iOS v12 and later because it use tokenizer.
 
+## Take a peek
+
+<br />
+<img src="https://i.ibb.co/xjR7yZF/Simulator-Screen-Shot-i-Phone-12-2022-01-23-at-22-17-13.png" alt="ss :v" style="height: 300px; width:300px;"/>
+<br />
+
 ## Install
 
 Just install like usual, using swift package manager
