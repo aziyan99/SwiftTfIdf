@@ -5,7 +5,7 @@ An ordinary swift package, have a bunch looping of calculating TFIDF and of cour
 ## Take a peek
 
 <br />
-<img src="https://i.ibb.co/xjR7yZF/Simulator-Screen-Shot-i-Phone-12-2022-01-23-at-22-17-13.png" alt="ss :v" style="height: 300px; width:300px;"/>
+<img src="https://i.ibb.co/xjR7yZF/Simulator-Screen-Shot-i-Phone-12-2022-01-23-at-22-17-13.png" alt="ss :v" style="height: 300px;"/>
 <br />
 
 ## Install
