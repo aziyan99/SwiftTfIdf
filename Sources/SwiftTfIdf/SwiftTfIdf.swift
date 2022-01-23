@@ -6,7 +6,7 @@ public class SwiftTfIdf {
     public var topN: Int
     public var stopWords: [String]
     
-    init(text: String, stopWords: [String], topN: Int) {
+    public init(text: String, stopWords: [String], topN: Int) {
         self.stopWords = stopWords
         self.topN = topN
         text.enumerateSubstrings(in: text.startIndex..., options: [.localized, .bySentences]) { (tag, _, _, _) in
