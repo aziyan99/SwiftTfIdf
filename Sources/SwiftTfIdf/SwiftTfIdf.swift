@@ -114,7 +114,7 @@ public class SwiftTfIdf {
         return tfIdfVec
     }
     
-    func finalCount() -> [(key: String, value: Float)] {
+    public func finalCount() -> [(key: String, value: Float)] {
         let dictOfWordInSentences = sentences2ArrayOfWords(sentences: rawSentences)
         var dictOfTF = [[String: Float]]()
         let nDocument = dictOfWordInSentences.count
