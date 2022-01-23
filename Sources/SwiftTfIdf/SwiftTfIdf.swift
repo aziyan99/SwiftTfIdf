@@ -126,7 +126,7 @@ public class SwiftTfIdf {
         // convert raw sentences to array of sentences
         let dictOfWordInSentences = sentences2ArrayOfWords(sentences: rawSentences)
         
-        // calc the tf value save it as dictionary
+        // initalize the tf value as dictionary
         var dictOfTF = [[String: Float]]()
         let nDocument = dictOfWordInSentences.count
         
