@@ -1,6 +1,6 @@
 # Swift TF-IDF
 
-> An ordinary swift package, have a bunch looping of calculating TFIDF and of course to ranking words.
+An ordinary swift package, have a bunch looping of calculating TFIDF and of course to ranking words. This package work only with iOS v12 and later because it use tokenizer.
 
 ## Install
 
@@ -30,6 +30,10 @@ The calculation happend base on looping and sequentials, splitting the text to a
 - [ ] Restructuring the code
 - [ ] Improve time complexity
 
+## Depedencies
+
+1. `NaturalLanguage`
+2. `Foundation`
 
 ## License
 
