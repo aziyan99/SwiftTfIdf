@@ -18,7 +18,7 @@ Use it like usual, no magic here (magic will be add in the future :v)
 
 ## How it works
 
-The calculation happend base on looping and sequentials, splitting the text to a bunch of array of sentences and words, calculate the tf, calculate the df and the tfidf, sorting the results, and ranking it. An example of implementation will be adding soon.
+The calculation happend base on looping and sequentials, splitting the text to a bunch of array of sentences and words, calculate the tf, calculate the df and the tfidf, sorting the results, and ranking it. That means the more words that are processed the longer the execution time. An example of implementation will be adding soon.
 <br />
 <br />
 <img src="https://i.redd.it/4npl9yfg5js11.jpg" alt="https://i.redd.it/4npl9yfg5js11.jpg" style="height: 300px; width:300px;"/>
