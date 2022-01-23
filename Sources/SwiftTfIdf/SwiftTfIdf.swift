@@ -26,15 +26,22 @@ public class SwiftTfIdf {
             tokenizer.enumerateTokens(in: sentence.startIndex..<sentence.endIndex) { tokenRange, _ in
                 let word = String(sentence[tokenRange])
                 
-                let syncQueue2 = DispatchQueue(label: "level2")
-
-                for stopWord in self.stopWords {
-                    if stopWord != word {
-                        syncQueue2.sync {
-                            words.append(word)
-                        }
-                    }
+//                let syncQueue2 = DispatchQueue(label: "level2")
+                
+                let isStopWord = stopWords.contains(word)
+                
+                if !isStopWord {
+                    words.append(word)
+                    
                 }
+
+//                for stopWord in self.stopWords {
+//                    if stopWord != word {
+//                        syncQueue2.sync {
+//                            words.append(word)
+//                        }
+//                    }
+//                }
                 return true
             }
 
