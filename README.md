@@ -29,6 +29,7 @@ The calculation happend base on looping and sequentials, splitting the text to a
 - [ ] Adjust & improving the looping performance
 - [ ] Restructuring the code
 - [ ] Improve time complexity
+- [ ] Adding logo (maybe will make it cool :v)
 
 ## Depedencies
 
