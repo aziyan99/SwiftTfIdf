@@ -20,7 +20,7 @@ Just install like usual, using swift package manager
 Use it like usual, no magic here (magic will be add in the future :v)
 1. import the package `import SwiftTfIdf`
 2. Instance it `let tfIdf = SwiftTfIdf(text: String, stopWords: [String], topN: Int)`. **text** is the raw text that need to be ranking, **stopWords** the stop words (array of String), and **topN** how much the top words that want to get.
-3. Call the `.finalCount()` function to get the results `let = results = tfIdf.finalCount()`. The funcion will returning array of dictionary `[(key: String, value: Float)]` with `key` is the words and `value` is ranking value.
+3. Call the `.finalCount()` function to get the results `let results = tfIdf.finalCount()`. The funcion will returning array of dictionary `[(key: String, value: Float)]` with `key` is the words and `value` is ranking value.
 
 ## How it works
 
